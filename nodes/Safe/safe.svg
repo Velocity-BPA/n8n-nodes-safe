@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="safeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#12FF80;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00D395;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background circle -->
+  <circle cx="128" cy="128" r="120" fill="#121312"/>
+  <!-- Safe shield outline -->
+  <path d="M128 28c-24 0-48 8-68 24-4 3-6 8-6 13v70c0 32 18 62 48 78l22 12c2 1 4 1 8 1s6 0 8-1l22-12c30-16 48-46 48-78V65c0-5-2-10-6-13-20-16-44-24-68-24h-8z" fill="none" stroke="url(#safeGradient)" stroke-width="8"/>
+  <!-- Inner shield -->
+  <path d="M128 52c-18 0-36 6-51 18v60c0 24 14 47 36 59l15 8 15-8c22-12 36-35 36-59V70c-15-12-33-18-51-18z" fill="url(#safeGradient)" opacity="0.2"/>
+  <!-- Checkmark -->
+  <path d="M112 148l-24-24 12-12 12 12 36-36 12 12-48 48z" fill="url(#safeGradient)"/>
+  <!-- Lock icon -->
+  <rect x="104" y="100" width="48" height="36" rx="4" fill="none" stroke="url(#safeGradient)" stroke-width="6"/>
+  <path d="M116 100V88c0-12 12-20 24-12s12 24 0 24" fill="none" stroke="url(#safeGradient)" stroke-width="6"/>
+</svg>
